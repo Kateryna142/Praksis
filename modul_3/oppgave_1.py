@@ -1,5 +1,4 @@
 # Variabler
-print()
 navn = "Kateryna"                                 # string
 alder = 46                                        # integer
 høyde = 1.70                                      # float
