@@ -4,35 +4,27 @@ navn = "Michael"
 antall_studenter = 30
 
 # Jeg tror resultatet blir: True
-alder > aldersgrense
 print("alder > aldersgrense:", alder > aldersgrense)
 
 # Jeg tror resultatet blir: True
-alder == 31
 print("alder == 31:", alder == 31)
 
 # Jeg tror resultatet blir: True
-alder != aldersgrense
 print("alder != aldersgrense:", alder != aldersgrense)
 
 # Jeg tror resultatet blir: False
-alder <= aldersgrense
 print("alder <= aldersgrense:", alder <= aldersgrense)
 
 # Jeg tror resultatet blir: True
-navn == "Michael"
 print("navn == \"Michael\":", navn == "Michael")
 
 # Jeg tror resultatet blir: False
-navn == "michael"
 print("navn == \"michael\":", navn == "michael")
 
 # Jeg tror resultatet blir: True
-antall_studenter >= 30
 print("antall_studenter >= 30:", antall_studenter >= 30)
 
 # Jeg tror resultatet blir: True
-alder + 5 > antall_studenter
 print("alder + 5 > antall_studenter:", alder + 5 > antall_studenter)
 
 # Reflekter og noter:
