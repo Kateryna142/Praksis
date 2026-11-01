@@ -8,9 +8,9 @@ else:
     print(f"Du er {alder} år, og ikke gammel nok.")
 print("Takk for at du sjekket!")
 # Jeg tror at resultatet blir: 
-#   Når jeg skriver alderen 17 - Du er 17 år, og ikke gammel nok.
-#   Når jeg skriver alderen 18 - Du er 18 år, og gammel nok.
-#   Når jeg skriver alderen 19 - Du er 19 år, og gammel nok.
+#   Når jeg skriver alderen 17, får jeg "Du er 17 år, og ikke gammel nok."
+#   Når jeg skriver alderen 18, får jeg "Du er 18 år, og gammel nok."
+#   Når jeg skriver alderen 19, får jeg "Du er 19 år, og gammel nok."
 
 # Reflekter og noter:
 # 1. Når jeg fjernet innrykket foran den første print-linjen, fikk jeg en feil: 
