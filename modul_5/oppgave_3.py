@@ -15,7 +15,7 @@ print(doble_return(5) + 1)
 # Jeg tror at resultatet av doble_return(5) + 1 vil være 11, fordi doble_return(5) 
 # returnerer 10, og når jeg legger til 1, får jeg 11.
 
-# print(doble_print(5) + 1)
+print(doble_print(5) + 1)
 # jeg tror at resultatet av doble_print(5) + 1 vil være en feilmelding, fordi doble_print(5)
 # ikke returnerer en verdi, men skriver den ut på skjermen. 
 # Derfor kan jeg ikke legge til 1 til verdien fra doble_print(5), 
