@@ -1,3 +1,4 @@
+# Del 1 — Forutsi
 # Snutt 1:
 
 def lag_hilsen():
@@ -40,6 +41,7 @@ print(f"Ute: {tall}")
 # Samtidig print(f"Ute: {tall}") benytter global variabelen tall som ikke har blitt endret av 
 # prosedyren doble().
 
+# Del 2 — Poengtelleren igjen
 poeng = 0
 
 def legg_til_poeng():
@@ -51,6 +53,8 @@ print(poeng)
 # når vi prøver å endre verdien inne i funksjonen. Men variabelen har ikke fått noen lokal verdi ennå.
 # Feil som oppstår: 
 # UnboundLocalError: cannot access local variable 'poeng' where it is not associated with a value
+
+# Løsning A:
 poeng = 0
 def legg_til_poeng():
     global poeng
@@ -59,8 +63,7 @@ def legg_til_poeng():
 legg_til_poeng()
 print(poeng)
 
-
-
+# Løsning B:
 poeng = 0
 def legg_til_poeng(poeng: int) -> int:
     return poeng + 10
@@ -69,8 +72,7 @@ poeng = 0
 poeng = legg_til_poeng(poeng)
 print(poeng)
 
-
-
+# Utvidelse
 def trekk_fra_poeng(poeng: int, antall: int) -> int:
     return poeng - antall
 
